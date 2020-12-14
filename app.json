@@ -5,8 +5,22 @@
     "name": "weather",
     "slug": "weather",
     "version": "1.0.0",
+    "icon": "./icon.png",
+    "orientation": "portrait",
+    "splash": {
+      "image": "./icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "android": {
+      "package": "weather.apk"
+    },
+    "web": {
+      "favicon": "./icon.png"
+    }
   }
 }
+
